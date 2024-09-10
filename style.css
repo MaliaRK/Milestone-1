@@ -1,0 +1,167 @@
+body {
+    background-color: #7e7c7c;
+}
+
+.container {
+    margin: 3% 20%;
+    padding-bottom: 2%;
+    background-color: hsl(195, 7%, 77%);
+    border-radius: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    text-decoration:underline;
+}
+
+.main {
+    padding-left: 8%;
+    display: flex;
+    gap: 70px;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+}
+
+.contact {
+    display: block;
+}
+
+#button {
+    padding: 4% 10%;
+    display:flex;
+    justify-content: space-around;
+    margin: 5% 5% 0% 5%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px rgba(6, 6, 6, 0.5);
+
+}
+
+.btn-class {
+    cursor: pointer;
+    padding: 3% 6%;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight:bold ;
+    background-color: transparent;
+    box-shadow: inset 10px 10px 15px rgba(87, 86, 86, 0.5);
+    transition: transform 0.2s ease;
+}
+
+.btn-class:active {
+    transform: scale(0.95);
+}
+
+    .section {
+        padding-left: 8%;
+        display: none;
+    }
+
+    .section.active {
+        display: block;
+    }
+
+h2 {
+    text-decoration: underline;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bcom h3::before {
+    content: "🎓 ";
+}
+
+#course h3::before {
+    content: "💻 ";
+}
+
+#exp-id div h3::before {
+    content: "💻 ";
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .container {
+        margin: 3% 10%;
+        padding-bottom: 2%;
+        background-color: hsl(195, 7%, 77%);
+        border-radius: 60px;
+    }
+
+    .contact {
+        display: block;
+    }
+    
+    #button {
+        padding: 4% 10%;
+        display:flex;
+        gap: 7%;
+    }   
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .container {
+        margin: 2%;
+        background-color: hsl(195, 7%, 77%);
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        padding-right: 13%;
+    }
+
+    .contact p {
+        text-align: center;
+        padding-right: 8%;
+    }
+    
+    .main {
+        display: block;
+    }
+    
+    img {
+        margin: 0 30%;
+        width: 170px;
+        height: 170;
+        border-radius: 100px;
+    }
+    
+    .contact {
+        text-align: center;
+        display: block;
+    }
+    
+    #button {
+        margin-top: 10%;
+        padding-top: 10%;
+        padding-bottom: 25%;
+        display: grid;
+        gap: 20%;
+        border-radius: 2%;    
+    }
+    
+    .btn-class {
+        padding: 10%;
+        width: 115px;
+        border-radius: 7%;
+        font-size: large;
+        font-weight: lighter;
+    }
+    
+    h2 {
+        text-decoration: underline;
+        margin-left: 4%;
+        font-size: x-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
