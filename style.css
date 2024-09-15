@@ -103,7 +103,7 @@ h2 {
     }   
 }
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 316px) and (max-width: 600px) {
     .container {
         margin: 2%;
         background-color: hsl(195, 7%, 77%);
@@ -130,7 +130,7 @@ h2 {
     }
     
     img {
-        margin: 0 30%;
+        margin: 0 10%;
         width: 170px;
         height: 170;
         border-radius: 100px;
